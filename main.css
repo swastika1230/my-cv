@@ -1,0 +1,284 @@
+	*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("camera.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.nav{
+	width: 350px;
+	height: auto; 
+	position: absolute;
+	top: 20%;
+	left: 0;
+}
+.nav a{ 
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Lucida;
+	font-weight: bold;
+	height: 70px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 70px;
+	text-align: center;
+	transition: 300ms;
+} 
+a.action{
+	background-color: black;
+	color: white;
+}
+.nav a:hover{
+	background-color: white;
+	color: black;
+	width: 85%;
+}
+.a{
+width: 80%;
+}
+.b{
+	width: 80%;
+}
+.c{
+	width: 80%;
+}
+.d{
+	width: 80%;
+}
+.e{
+	width: 80%;
+}
+.f{
+	width: 80%;
+}
+.Contant{
+	width:900px;
+	position: absolute;
+	min-height: 500px;
+	height: auto; 
+	margin-top: 100px;
+	right: 0;
+	top: 10%;
+}
+.Home{
+	position: absolute;
+	bottom: -50px;
+	color: white;
+	font-family: verdana;
+}
+.Home h1{
+	font-size: 50px;
+	padding-left: 43%;
+	text-transform: uppercase;
+	border-bottom: 1px solid white
+}
+.Home h3{
+	font-size: 28px;
+    padding: 0%;
+    padding-left: 47%;
+    opacity: 0.6;
+}
+
+img{
+
+	height: 500px;
+	width: 500px;
+	border-radius: 300px;
+	float: right;
+}
+  		section{
+  			text-align: center;
+  			margin-top: 20px;
+		}
+
+		p{
+			color: white;
+			font-size: 30px;
+			margin-bottom: 5px;
+
+		}
+
+		.sa p{
+
+			padding-left: 300px;
+			width: 500px;
+			top: -10px;
+		}
+
+		.img{
+			
+			height:200px;
+			top:5%;
+
+		}
+
+.contact{
+	width:900px;
+	min-height: 500px;
+	height: auto; 
+	right: 0;
+	top: 10%;
+}
+.Home{
+	position: absolute;
+	right: 0;
+	bottom: -50px;
+	color: white;
+	font-family: verdana;
+}
+.Home h1{
+	font-size: 50px;
+	padding-right: 50px;
+	text-transform: uppercase;
+	border-bottom: 1px solid white
+}
+.Home h3{
+	font-size: 28px;
+	padding: 5px 0;
+	opacity: 0.6;
+}
+.swas {
+	padding: 2px;
+	position: absolute;
+	font-size: 30px;
+	color: white;
+}
+.cv{
+	display: flex;
+	flex-direction: row;
+	margin-top:20px;
+	margin:10px;
+	width: 90%;
+
+}
+.left{
+	margin:10px;
+	margin-top: 0px;
+	margin-left: 35%;
+	color: white;
+	font-size: 25px;
+}
+.first{
+	
+	width: 50%;
+	color: white;
+	font-size: 25px;
+	margin-left: 25%;
+
+	
+}
+
+
+.contactform{
+	display: inline-flex;
+	width: 100%;
+	height: 600px;
+}
+
+.contact{
+	flex-direction: left;
+	margin-left:5%;
+	color :white;
+	margin-top: 200px;
+}
+
+.map{
+	/*--it gives the margin to the contact map*/
+	margin-top:5px;
+	margin-left: 750px;
+	display: flex;
+	flex-direction: row;
+	width: 350px;
+	height: 350px;
+
+}
+section h1{
+	font-size: 35px;
+	text-align: center;
+	
+}
+}
+.so img{
+	margin-left: 20%;
+	width: 50%;
+	height:50%;
+
+}	
+
+	
+
+}
+.swast img{
+	width:10%;
+}
+.introduction p{
+	text-align: justify;
+	font-size: 18px;
+
+
+}
+.frame {
+	text-align: justify;
+	font-size: 18px;
+}
+.xyx {
+	width:50%;
+	
+}
+.sketch p{
+	text-align: justify;
+	font-size: 18px;
+
+
+}
+.ret img{
+	width:50%;
+}
+
+@media screen and (max-width: 500px:){
+	.sourec{
+		border: 5px solid green;
+	}
+
+.swast{
+	display: flex;
+	flex-direction: column;
+	margin-top: 250px;
+}
+.Home{
+	display: flex;
+	flex-direction: column;
+}
+.footer{
+	
+	background-color: blue;
+	text-align: center;
+	padding-bottom: 3px;
+	width: 100%;
+	bottom: 0;
+	padding-top: 5px;
+	position:fixed;
+	
+}
+.sa{
+	margin-top: 550px;
+}
+img{
+	text-align: center;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+
+}
+.first{
+	display: flex;
+	flex-direction: column;
+}
